@@ -1,59 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <style>
-        body {
-            background-color: white;
-            /* White background */
-            margin: 0;
-            /* Remove default browser margins */
-            font-family: Arial, sans-serif;
-        }
-
-        nav {
-            background-color: #f8f8f8;
-            padding: 10px;
-            text-align: left;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            margin-bottom: 20px;
-        }
-
-        nav a {
-            color: #333;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-
-        nav a:hover {
-            color: #555;
-        }
-
-        h1 {
-            padding: 10px;
-            text-align: left;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-
         .container {
             display: flex;
             align-items: center;
             justify-content: center;
             gap: 40px;
-            /* Adjust spacing between burrito and cat */
             width: 100%;
             max-width: 1200px;
-            /* Center within a fixed width */
             margin: 0 auto;
             height: calc(100vh - 60px);
         }
-
-
+        
         @keyframes rollIn {
             0% {
                 transform: translateX(-100%) rotate(0deg);
@@ -89,9 +51,8 @@
 
         .cat {
             width: 200px;
-            /* Adjust as needed */
             animation: slideInFromRight 2s ease-out 0.5s forwards;
-            border-radius: 15px; /* Round the corners */
+            border-radius: 15px; 
         }
     </style>
 </head>
@@ -134,5 +95,4 @@
         <img src="../../images/momosh.jpeg" alt="moustique" class="cat">
     </div>
 </body>
-
 </html>
