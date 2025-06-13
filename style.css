@@ -9,3 +9,18 @@ h2 {
 h1 {
     font-size: 200%;
 }
+
+.inconsolata-font {
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400; /*font-weight: Use a value from 200 to 900*/
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.title {
+    font-size: 200%;
+    line-height: 70%;
+    max-width: 20em;
+}
